@@ -1,0 +1,6 @@
+﻿  main.c
+E:\c\main.c(5,21): warning C4047: “函数”:“LinkList”与“LinkList *”的间接级别不同
+E:\c\main.c(5,18): warning C4024: “InitLinkList”: 形参和实参 1 的类型不同
+E:\c\main.c(13,9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\c\main.c(26,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  main.vcxproj -> E:\c\bin\Debug\main.exe

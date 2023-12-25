@@ -1,0 +1,24 @@
+# CMake generation dependency list for this directory.
+E:/c/CMakeLists.txt
+E:/c/build/CMakeFiles/3.26.0-rc4/CMakeCCompiler.cmake
+E:/c/build/CMakeFiles/3.26.0-rc4/CMakeCXXCompiler.cmake
+E:/c/build/CMakeFiles/3.26.0-rc4/CMakeRCCompiler.cmake
+E:/c/build/CMakeFiles/3.26.0-rc4/CMakeSystem.cmake
+E:/cmake-3.26.0-rc4-windows-x86_64/share/cmake-3.26/Modules/CMakeCInformation.cmake
+E:/cmake-3.26.0-rc4-windows-x86_64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake
+E:/cmake-3.26.0-rc4-windows-x86_64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake
+E:/cmake-3.26.0-rc4-windows-x86_64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake
+E:/cmake-3.26.0-rc4-windows-x86_64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake
+E:/cmake-3.26.0-rc4-windows-x86_64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake
+E:/cmake-3.26.0-rc4-windows-x86_64/share/cmake-3.26/Modules/CMakeRCInformation.cmake
+E:/cmake-3.26.0-rc4-windows-x86_64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake
+E:/cmake-3.26.0-rc4-windows-x86_64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake
+E:/cmake-3.26.0-rc4-windows-x86_64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+E:/cmake-3.26.0-rc4-windows-x86_64/share/cmake-3.26/Modules/Compiler/MSVC-C.cmake
+E:/cmake-3.26.0-rc4-windows-x86_64/share/cmake-3.26/Modules/Compiler/MSVC-CXX.cmake
+E:/cmake-3.26.0-rc4-windows-x86_64/share/cmake-3.26/Modules/Compiler/MSVC.cmake
+E:/cmake-3.26.0-rc4-windows-x86_64/share/cmake-3.26/Modules/Platform/Windows-MSVC-C.cmake
+E:/cmake-3.26.0-rc4-windows-x86_64/share/cmake-3.26/Modules/Platform/Windows-MSVC-CXX.cmake
+E:/cmake-3.26.0-rc4-windows-x86_64/share/cmake-3.26/Modules/Platform/Windows-MSVC.cmake
+E:/cmake-3.26.0-rc4-windows-x86_64/share/cmake-3.26/Modules/Platform/Windows.cmake
+E:/cmake-3.26.0-rc4-windows-x86_64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake

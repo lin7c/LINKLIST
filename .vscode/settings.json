@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "linklist.h": "c",
+        "insert.h": "c",
+        "length.h": "c",
+        "stdlib.h": "c",
+        "sort.h": "c",
+        "linklistlib.h": "c",
+        "linklitslib.h": "c",
+        "*.rh": "c",
+        "string.h": "c",
+        "travel.h": "c",
+        "windows.h": "c"
+    }
+}

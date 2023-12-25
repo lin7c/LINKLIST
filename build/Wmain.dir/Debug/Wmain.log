@@ -1,0 +1,51 @@
+﻿  Wmain.c
+E:\c\example\Wmain.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c\example\Wmain.c(65,1): warning C4312: “类型强制转换”: 从“int”转换到更大的“HMENU”
+E:\c\example\Wmain.c(86,1): warning C4312: “类型强制转换”: 从“int”转换到更大的“HMENU”
+E:\c\example\Wmain.c(106,1): warning C4312: “类型强制转换”: 从“int”转换到更大的“HMENU”
+E:\c\example\Wmain.c(140,15): warning C4244: “return”: 从“WPARAM”转换到“int”，可能丢失数据
+E:\c\example\Wmain.c(156,51): warning C4133: “函数”: 从“wchar_t [1024]”到“LPSTR”的类型不兼容
+E:\c\example\Wmain.c(157,32): warning C4047: “函数”:“LinkList”与“LinkList *”的间接级别不同
+E:\c\example\Wmain.c(157,30): warning C4024: “InitLinkList”: 形参和实参 1 的类型不同
+E:\c\example\Wmain.c(167,51): warning C4133: “函数”: 从“wchar_t [1024]”到“LPSTR”的类型不兼容
+E:\c\example\Wmain.c(168,25): warning C4133: “函数”: 从“wchar_t [1024]”到“char *const ”的类型不兼容
+E:\c\example\Wmain.c(169,60): warning C4133: “函数”: 从“wchar_t [1024]”到“LPCSTR”的类型不兼容
+E:\c\example\Wmain.c(178,51): warning C4133: “函数”: 从“wchar_t [1024]”到“LPSTR”的类型不兼容
+E:\c\example\Wmain.c(186,28): warning C4133: “函数”: 从“wchar_t [1024]”到“char *”的类型不兼容
+E:\c\example\Wmain.c(191,25): warning C4133: “函数”: 从“wchar_t [1024]”到“char *const ”的类型不兼容
+E:\c\example\Wmain.c(192,60): warning C4133: “函数”: 从“wchar_t [1024]”到“LPCSTR”的类型不兼容
+E:\c\example\Wmain.c(201,51): warning C4133: “函数”: 从“wchar_t [1024]”到“LPSTR”的类型不兼容
+E:\c\example\Wmain.c(207,59): warning C4133: “函数”: 从“wchar_t [1024]”到“const char *”的类型不兼容
+E:\c\example\Wmain.c(209,25): warning C4133: “函数”: 从“wchar_t [1024]”到“char *const ”的类型不兼容
+E:\c\example\Wmain.c(210,60): warning C4133: “函数”: 从“wchar_t [1024]”到“LPCSTR”的类型不兼容
+E:\c\example\Wmain.c(219,51): warning C4133: “函数”: 从“wchar_t [1024]”到“LPSTR”的类型不兼容
+E:\c\example\Wmain.c(224,30): warning C4133: “函数”: 从“wchar_t [1024]”到“const char *”的类型不兼容
+E:\c\example\Wmain.c(226,25): warning C4133: “函数”: 从“wchar_t [1024]”到“char *const ”的类型不兼容
+E:\c\example\Wmain.c(227,60): warning C4133: “函数”: 从“wchar_t [1024]”到“LPCSTR”的类型不兼容
+E:\c\example\Wmain.c(236,51): warning C4133: “函数”: 从“wchar_t [1024]”到“LPSTR”的类型不兼容
+E:\c\example\Wmain.c(242,59): warning C4133: “函数”: 从“wchar_t [1024]”到“const char *”的类型不兼容
+E:\c\example\Wmain.c(245,29): warning C4133: “函数”: 从“wchar_t [1024]”到“char *const ”的类型不兼容
+E:\c\example\Wmain.c(248,29): warning C4133: “函数”: 从“wchar_t [1024]”到“char *const ”的类型不兼容
+E:\c\example\Wmain.c(250,60): warning C4133: “函数”: 从“wchar_t [1024]”到“LPCSTR”的类型不兼容
+E:\c\example\Wmain.c(259,51): warning C4133: “函数”: 从“wchar_t [1024]”到“LPSTR”的类型不兼容
+E:\c\example\Wmain.c(264,30): warning C4133: “函数”: 从“wchar_t [1024]”到“const char *”的类型不兼容
+E:\c\example\Wmain.c(267,29): warning C4133: “函数”: 从“wchar_t [1024]”到“char *const ”的类型不兼容
+E:\c\example\Wmain.c(267,77): warning C4474: sprintf: 格式字符串中传递的参数太多
+E:\c\example\Wmain.c(267,77): message : 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+E:\c\example\Wmain.c(270,29): warning C4133: “函数”: 从“wchar_t [1024]”到“char *const ”的类型不兼容
+E:\c\example\Wmain.c(270,76): warning C4474: sprintf: 格式字符串中传递的参数太多
+E:\c\example\Wmain.c(270,76): message : 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+E:\c\example\Wmain.c(272,60): warning C4133: “函数”: 从“wchar_t [1024]”到“LPCSTR”的类型不兼容
+E:\c\example\Wmain.c(168,17): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\c\example\Wmain.c(186,21): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\c\example\Wmain.c(187,21): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\c\example\Wmain.c(191,17): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\c\example\Wmain.c(209,17): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\c\example\Wmain.c(226,17): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\c\example\Wmain.c(245,21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\c\example\Wmain.c(248,21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\c\example\Wmain.c(267,21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\c\example\Wmain.c(270,21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\c\example\Wmain.c(283,21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\c\example\Wmain.c(284,21): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Wmain.vcxproj -> E:\c\bin\Debug\Wmain.exe
