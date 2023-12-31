@@ -2,7 +2,7 @@
 int Length(LinkList l){
     LinkList  p = l;
     int len = 0;
-    while(p){
+    while(p!=(void*)0){
         len++;
         p = p->next;
     }

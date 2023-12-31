@@ -6,6 +6,10 @@ int Remove(LinkList *l,int i){
         printf("the linklist have no member to delete");
         return 0;
     }
+    if(i == 0){
+        printf("cant reamove 0 elem");
+        return 0;
+    }
     if(len == i){   //delete the end of linklist
         for(int j = 0;j<i-1;j++){  //locate to the prevoius one in the end
             p = p->next;

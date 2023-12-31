@@ -2,6 +2,7 @@
 #define LINKLISTLIB_H
 //All base function include
 #include "../src/LinkList.h"
+#include "../src/Length.h"
 #include "../src/Insert.h"
 #include "../src/MakeEmpty.h"
 #include "../src/Remove.h"

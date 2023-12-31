@@ -2,16 +2,16 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>E:\c\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>E:\work\LinkList\LINKLIST\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>E:\c\bin\Debug\Wmain.exe</FullPath>
+      <FullPath>E:\work\LinkList\LINKLIST\bin\Debug\Wmain.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>E:\c\bin\Debug\main.exe</FullPath>
+      <FullPath>E:\work\LinkList\LINKLIST\bin\Debug\main.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>E:\c\build\x64\Debug\ALL_BUILD</FullPath>
+      <FullPath>E:\work\LinkList\LINKLIST\build\x64\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

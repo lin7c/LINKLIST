@@ -1,5 +1,1 @@
-﻿  Sort.c
-  Travel.c
-E:\c\src\Travel.c(7,9): warning C4013: “printf”未定义；假设外部返回 int
-  正在生成代码...
-  F_LINK.vcxproj -> E:\c\lib\Debug\F_LINK.lib
+﻿  F_LINK.vcxproj -> E:\work\LinkList\LINKLIST\lib\Debug\F_LINK.lib

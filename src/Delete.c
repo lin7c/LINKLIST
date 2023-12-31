@@ -1,18 +1,18 @@
 #include "Delete.h"
+#include <stdio.h>
 int Delete(LinkList *l,ElemType x){
-    int len = Length(*l);
-    int *RL,RLlen = 0,times = 0;
-    RL = (int*)malloc(sizeof(int)*len);
-    LinkList p = *l;
-    for(int j= 0 ;j<len;j++){
+    int len = Length(*l)-1; //if 1->1->1 is 4
+    int *RL,times = 0;
+    RL = (ElemType*)malloc(sizeof(ElemType)*len); //is [0,0,0]
+    LinkList p = (*l)->next;
+    for(int j= 0 ;j<len;j++){ // 3 
+        printf("x");
         if(p->data == x){
             times++;
             RL[j] = 1;
-            RLlen++;
         }
         else{
             RL[j] = 0;
-            RLlen++;
         }
         p = p->next;
     }
@@ -20,9 +20,12 @@ int Delete(LinkList *l,ElemType x){
         printf("no element to delete");
         return 0;
     }
-    for(int k = 0;k<RLlen;k++){
-        if(RL[k] == 1)
-        Remove(l,k);
+    int deltimes = 0;
+    for(int k = 0;k<len;k++){
+        if(RL[k] == 1){
+            Remove(l,k-deltimes+1);
+            deltimes++;
+        }
     }
     return 1;
 }

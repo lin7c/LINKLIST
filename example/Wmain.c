@@ -73,12 +73,13 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     int EditHeight = 30;
     int EditX = 103;
     int EditY = 30;
-    for(int i = 0;i<8;i++){
+    // 创建输入框
+    for(int i = 0;i<5;i++){
         HWND hEdit = CreateWindow(
             "EDIT",                    // 控件类名
             "",                        // 初始文本
             WS_TABSTOP | WS_VISIBLE | WS_CHILD | ES_AUTOVSCROLL | ES_LEFT | ES_MULTILINE|WS_BORDER, // 样式
-            EditX, EditY+(EditHeight+3)*i,                   // 位置（左上角）
+            EditX, EditY*3+6+(EditHeight+3)*i,                   // 位置（左上角）
             EditWidth, EditHeight,                 // 大小
             hWnd,                      // 父窗口句柄
             (HMENU)(IDC_MYEDIT+i),              // 控件ID
@@ -161,10 +162,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam) 
                 if(init == 0){
                     MessageBox(NULL, "LinkList has not initialized", "Error!", MB_ICONEXCLAMATION | MB_OK);
                 }
-                HWND hEdit = GetDlgItem(hWnd, IDC_MYEDIT+1);
-                const int bufferSize = 1024;
                 wchar_t buffer[1024];
-                int length = GetWindowText(hEdit, buffer, bufferSize);
                 sprintf(buffer,"The Length of linklist is %d",Length(l));
                 SetWindowText(GetDlgItem(hWnd, IDC_MYOUT), buffer); 
             }
@@ -172,7 +170,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam) 
                 if(init == 0){
                     MessageBox(NULL, "LinkList has not initialized", "Error!", MB_ICONEXCLAMATION | MB_OK);
                 }
-                HWND hEdit = GetDlgItem(hWnd, IDC_MYEDIT+2);
+                HWND hEdit = GetDlgItem(hWnd, IDC_MYEDIT);
                 const int bufferSize = 1024;
                 wchar_t buffer[1024];
                 int length = GetWindowText(hEdit, buffer, bufferSize);
@@ -195,7 +193,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam) 
                 if(init == 0){
                     MessageBox(NULL, "LinkList has not initialized", "Error!", MB_ICONEXCLAMATION | MB_OK);
                 }
-                HWND hEdit = GetDlgItem(hWnd, IDC_MYEDIT+3);
+                HWND hEdit = GetDlgItem(hWnd, IDC_MYEDIT+1);
                 const int bufferSize = 1024;
                 wchar_t buffer[1024];
                 int length = GetWindowText(hEdit, buffer, bufferSize);
@@ -213,7 +211,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam) 
                 if(init == 0){
                     MessageBox(NULL, "LinkList has not initialized", "Error!", MB_ICONEXCLAMATION | MB_OK);
                 }
-                HWND hEdit = GetDlgItem(hWnd, IDC_MYEDIT+4);
+                HWND hEdit = GetDlgItem(hWnd, IDC_MYEDIT+2);
                 const int bufferSize = 1024;
                 wchar_t buffer[1024];
                 int length = GetWindowText(hEdit, buffer, bufferSize);
@@ -230,7 +228,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam) 
                 if(init == 0){
                     MessageBox(NULL, "LinkList has not initialized", "Error!", MB_ICONEXCLAMATION | MB_OK);
                 }
-                HWND hEdit = GetDlgItem(hWnd, IDC_MYEDIT+5);
+                HWND hEdit = GetDlgItem(hWnd, IDC_MYEDIT+3);
                 const int bufferSize = 1024;
                 wchar_t buffer[1024];
                 int length = GetWindowText(hEdit, buffer, bufferSize);
@@ -253,7 +251,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam) 
                 if(init == 0){
                     MessageBox(NULL, "LinkList has not initialized", "Error!", MB_ICONEXCLAMATION | MB_OK);
                 }
-                HWND hEdit = GetDlgItem(hWnd, IDC_MYEDIT+6);
+                HWND hEdit = GetDlgItem(hWnd, IDC_MYEDIT+4);
                 const int bufferSize = 1024;
                 wchar_t buffer[1024];
                 int length = GetWindowText(hEdit, buffer, bufferSize);
@@ -274,7 +272,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam) 
             if (LOWORD(wParam) == IDC_MYBUTTON+7) {
                 char TRAVELBUF[1024];
                 init = 1;
-                HWND hEdit = GetDlgItem(hWnd, IDC_MYEDIT+7);
+                HWND hEdit = GetDlgItem(hWnd, IDC_MYEDIT+5);
                 int len = Length(l);
                 LinkList p = l->next;
                 TRAVELBUF[0] = '\0'; 

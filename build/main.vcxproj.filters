@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\c\main.c">
+    <ClCompile Include="E:\work\LinkList\LINKLIST\main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\c\CMakeLists.txt" />
+    <CustomBuild Include="E:\work\LinkList\LINKLIST\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{697FE3E6-7E65-3280-9330-623CA3F4BF26}</UniqueIdentifier>
+      <UniqueIdentifier>{976E20F1-4EF5-326C-A468-B714AFE024A4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

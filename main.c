@@ -3,23 +3,14 @@
 int main(){
     LinkList l1;
     InitLinkList(&l1);
-    ElemType e = 0, i = 0;
-    printf("Insert e in the back of i and input '# ' to stop\n");
-
-    while (1) {
-        if (e == -1 || i == -1) {
-            break;
-        }
-        scanf("%d %d", &e, &i);
-        printf("Insert %d in the back of %d\n", e, i);
-        Insert(&l1, e, i);
-    }
-
-    printf("sort:\n");
-    Sort(&l1, 0);
-    printf("travel:");
+    Insert(&l1,1,0);
+    Insert(&l1,1,0);
+    Insert(&l1,2,2);
+    Insert(&l1,1,0);
+    Insert(&l1,1,0);
+    printf("%d",Length(l1));
+    Delete(&l1,2);
     Travel(l1);
-    
 //pouse
     int x;
     printf("\nPouse");

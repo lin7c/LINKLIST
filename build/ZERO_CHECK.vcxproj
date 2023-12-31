@@ -25,9 +25,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5B4EFDA1-CA59-34A9-BF8A-44EA63D6BDC7}</ProjectGuid>
+    <ProjectGuid>{72A822B3-C8B6-318D-84D6-867A38E9E2CF}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>ZERO_CHECK</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -69,7 +69,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\c\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\work\LinkList\LINKLIST\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -79,7 +79,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\c\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\work\LinkList\LINKLIST\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -89,7 +89,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\c\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\work\LinkList\LINKLIST\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -99,7 +99,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\c\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\work\LinkList\LINKLIST\.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -108,12 +108,12 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\c\build\CMakeFiles\2639ea602aab1b141a76f5b11dc63430\generate.stamp.rule">
+    <CustomBuild Include="E:\work\LinkList\LINKLIST\build\CMakeFiles\51a33583f0c9be175a512f000635daa6\generate.stamp.rule">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-E:\cmake-3.26.0-rc4-windows-x86_64\bin\cmake.exe -SE:/c -BE:/c/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/c/build/LINKLIST.sln
+E:\cmake-3.26.0-rc4-windows-x86_64\bin\cmake.exe -SE:/work/LinkList/LINKLIST -BE:/work/LinkList/LINKLIST/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/work/LinkList/LINKLIST/build/LINKLIST.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -121,13 +121,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\c\CMakeLists.txt;E:\c\build\CMakeFiles\3.26.0-rc4\CMakeCCompiler.cmake;E:\c\build\CMakeFiles\3.26.0-rc4\CMakeCXXCompiler.cmake;E:\c\build\CMakeFiles\3.26.0-rc4\CMakeRCCompiler.cmake;E:\c\build\CMakeFiles\3.26.0-rc4\CMakeSystem.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeCInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\c\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeCInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;E:\work\LinkList\LINKLIST\CMakeLists.txt;E:\work\LinkList\LINKLIST\build\CMakeFiles\3.26.0-rc4\CMakeCCompiler.cmake;E:\work\LinkList\LINKLIST\build\CMakeFiles\3.26.0-rc4\CMakeCXXCompiler.cmake;E:\work\LinkList\LINKLIST\build\CMakeFiles\3.26.0-rc4\CMakeRCCompiler.cmake;E:\work\LinkList\LINKLIST\build\CMakeFiles\3.26.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\work\LinkList\LINKLIST\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-E:\cmake-3.26.0-rc4-windows-x86_64\bin\cmake.exe -SE:/c -BE:/c/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/c/build/LINKLIST.sln
+E:\cmake-3.26.0-rc4-windows-x86_64\bin\cmake.exe -SE:/work/LinkList/LINKLIST -BE:/work/LinkList/LINKLIST/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/work/LinkList/LINKLIST/build/LINKLIST.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -135,13 +135,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\c\CMakeLists.txt;E:\c\build\CMakeFiles\3.26.0-rc4\CMakeCCompiler.cmake;E:\c\build\CMakeFiles\3.26.0-rc4\CMakeCXXCompiler.cmake;E:\c\build\CMakeFiles\3.26.0-rc4\CMakeRCCompiler.cmake;E:\c\build\CMakeFiles\3.26.0-rc4\CMakeSystem.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeCInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\c\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeCInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;E:\work\LinkList\LINKLIST\CMakeLists.txt;E:\work\LinkList\LINKLIST\build\CMakeFiles\3.26.0-rc4\CMakeCCompiler.cmake;E:\work\LinkList\LINKLIST\build\CMakeFiles\3.26.0-rc4\CMakeCXXCompiler.cmake;E:\work\LinkList\LINKLIST\build\CMakeFiles\3.26.0-rc4\CMakeRCCompiler.cmake;E:\work\LinkList\LINKLIST\build\CMakeFiles\3.26.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\work\LinkList\LINKLIST\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-E:\cmake-3.26.0-rc4-windows-x86_64\bin\cmake.exe -SE:/c -BE:/c/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/c/build/LINKLIST.sln
+E:\cmake-3.26.0-rc4-windows-x86_64\bin\cmake.exe -SE:/work/LinkList/LINKLIST -BE:/work/LinkList/LINKLIST/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/work/LinkList/LINKLIST/build/LINKLIST.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -149,13 +149,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\c\CMakeLists.txt;E:\c\build\CMakeFiles\3.26.0-rc4\CMakeCCompiler.cmake;E:\c\build\CMakeFiles\3.26.0-rc4\CMakeCXXCompiler.cmake;E:\c\build\CMakeFiles\3.26.0-rc4\CMakeRCCompiler.cmake;E:\c\build\CMakeFiles\3.26.0-rc4\CMakeSystem.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeCInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\c\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeCInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;E:\work\LinkList\LINKLIST\CMakeLists.txt;E:\work\LinkList\LINKLIST\build\CMakeFiles\3.26.0-rc4\CMakeCCompiler.cmake;E:\work\LinkList\LINKLIST\build\CMakeFiles\3.26.0-rc4\CMakeCXXCompiler.cmake;E:\work\LinkList\LINKLIST\build\CMakeFiles\3.26.0-rc4\CMakeRCCompiler.cmake;E:\work\LinkList\LINKLIST\build\CMakeFiles\3.26.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\work\LinkList\LINKLIST\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-E:\cmake-3.26.0-rc4-windows-x86_64\bin\cmake.exe -SE:/c -BE:/c/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/c/build/LINKLIST.sln
+E:\cmake-3.26.0-rc4-windows-x86_64\bin\cmake.exe -SE:/work/LinkList/LINKLIST -BE:/work/LinkList/LINKLIST/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/work/LinkList/LINKLIST/build/LINKLIST.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -163,8 +163,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\c\CMakeLists.txt;E:\c\build\CMakeFiles\3.26.0-rc4\CMakeCCompiler.cmake;E:\c\build\CMakeFiles\3.26.0-rc4\CMakeCXXCompiler.cmake;E:\c\build\CMakeFiles\3.26.0-rc4\CMakeRCCompiler.cmake;E:\c\build\CMakeFiles\3.26.0-rc4\CMakeSystem.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeCInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\c\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeCInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows.cmake;E:\cmake-3.26.0-rc4-windows-x86_64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;E:\work\LinkList\LINKLIST\CMakeLists.txt;E:\work\LinkList\LINKLIST\build\CMakeFiles\3.26.0-rc4\CMakeCCompiler.cmake;E:\work\LinkList\LINKLIST\build\CMakeFiles\3.26.0-rc4\CMakeCXXCompiler.cmake;E:\work\LinkList\LINKLIST\build\CMakeFiles\3.26.0-rc4\CMakeRCCompiler.cmake;E:\work\LinkList\LINKLIST\build\CMakeFiles\3.26.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\work\LinkList\LINKLIST\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
