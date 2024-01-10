@@ -1,1 +1,12 @@
-﻿  main.vcxproj -> E:\work\LinkList\LINKLIST\bin\Debug\main.exe
+﻿  main.c
+E:\work\LinkList\LINKLIST\main.c(5,21): warning C4047: “函数”:“LinkList”与“LinkList *”的间接级别不同
+E:\work\LinkList\LINKLIST\main.c(5,18): warning C4024: “InitLinkList”: 形参和实参 1 的类型不同
+E:\work\LinkList\LINKLIST\main.c(17,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  LINK : 没有找到 E:\work\LinkList\LINKLIST\bin\Debug\main.exe 或上一个增量链接没有生成它；正在执行完全链接
+F_LINK.lib(LinkList.obj) : warning LNK4099: 未找到 PDB“”(使用“F_LINK.lib(LinkList.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+F_LINK.lib(Length.obj) : warning LNK4099: 未找到 PDB“”(使用“F_LINK.lib(Length.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+F_LINK.lib(Insert.obj) : warning LNK4099: 未找到 PDB“”(使用“F_LINK.lib(Insert.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+F_LINK.lib(Delete.obj) : warning LNK4099: 未找到 PDB“”(使用“F_LINK.lib(Delete.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+F_LINK.lib(Travel.obj) : warning LNK4099: 未找到 PDB“”(使用“F_LINK.lib(Travel.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+F_LINK.lib(Remove.obj) : warning LNK4099: 未找到 PDB“”(使用“F_LINK.lib(Remove.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+  main.vcxproj -> E:\work\LinkList\LINKLIST\bin\Debug\main.exe

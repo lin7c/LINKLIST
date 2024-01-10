@@ -1,0 +1,16 @@
+﻿  1>Building Custom Rule E:/work/LinkList/LINKLIST/CMakeLists.txt
+  Travel.c
+E:\work\LinkList\LINKLIST\src\Travel.c(7,9): warning C4013: “printf”未定义；假设外部返回 int
+  Sort.c
+  LinkList.c
+E:\work\LinkList\LINKLIST\src\LinkList.c(4,29): warning C4028: 形参 1 与声明不同
+  Length.c
+  Insert.c
+E:\work\LinkList\LINKLIST\src\Insert.c(5,9): warning C4013: “printf”未定义；假设外部返回 int
+  MakeEmpty.c
+  Remove.c
+E:\work\LinkList\LINKLIST\src\Remove.c(6,9): warning C4013: “printf”未定义；假设外部返回 int
+  Delete.c
+  Find.c
+  正在生成代码...
+  F_LINK.vcxproj -> E:\work\LinkList\LINKLIST\lib\Release\F_LINK.lib

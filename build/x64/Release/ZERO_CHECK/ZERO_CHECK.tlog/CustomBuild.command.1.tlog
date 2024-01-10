@@ -1,0 +1,10 @@
+^E:\WORK\LINKLIST\LINKLIST\BUILD\CMAKEFILES\51A33583F0C9BE175A512F000635DAA6\GENERATE.STAMP.RULE
+setlocal
+E:\cmake-3.26.0-rc4-windows-x86_64\bin\cmake.exe -SE:/work/LinkList/LINKLIST -BE:/work/LinkList/LINKLIST/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/work/LinkList/LINKLIST/build/LINKLIST.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

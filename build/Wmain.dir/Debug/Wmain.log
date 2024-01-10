@@ -1,1 +1,58 @@
-﻿  Wmain.vcxproj -> E:\work\LinkList\LINKLIST\bin\Debug\Wmain.exe
+﻿  Wmain.c
+E:\work\LinkList\LINKLIST\example\Wmain.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\work\LinkList\LINKLIST\example\Wmain.c(65,1): warning C4312: “类型强制转换”: 从“int”转换到更大的“HMENU”
+E:\work\LinkList\LINKLIST\example\Wmain.c(87,1): warning C4312: “类型强制转换”: 从“int”转换到更大的“HMENU”
+E:\work\LinkList\LINKLIST\example\Wmain.c(107,1): warning C4312: “类型强制转换”: 从“int”转换到更大的“HMENU”
+E:\work\LinkList\LINKLIST\example\Wmain.c(141,15): warning C4244: “return”: 从“WPARAM”转换到“int”，可能丢失数据
+E:\work\LinkList\LINKLIST\example\Wmain.c(157,51): warning C4133: “函数”: 从“wchar_t [1024]”到“LPSTR”的类型不兼容
+E:\work\LinkList\LINKLIST\example\Wmain.c(158,32): warning C4047: “函数”:“LinkList”与“LinkList *”的间接级别不同
+E:\work\LinkList\LINKLIST\example\Wmain.c(158,30): warning C4024: “InitLinkList”: 形参和实参 1 的类型不同
+E:\work\LinkList\LINKLIST\example\Wmain.c(166,25): warning C4133: “函数”: 从“wchar_t [1024]”到“char *const ”的类型不兼容
+E:\work\LinkList\LINKLIST\example\Wmain.c(167,60): warning C4133: “函数”: 从“wchar_t [1024]”到“LPCSTR”的类型不兼容
+E:\work\LinkList\LINKLIST\example\Wmain.c(176,51): warning C4133: “函数”: 从“wchar_t [1024]”到“LPSTR”的类型不兼容
+E:\work\LinkList\LINKLIST\example\Wmain.c(184,28): warning C4133: “函数”: 从“wchar_t [1024]”到“char *”的类型不兼容
+E:\work\LinkList\LINKLIST\example\Wmain.c(189,25): warning C4133: “函数”: 从“wchar_t [1024]”到“char *const ”的类型不兼容
+E:\work\LinkList\LINKLIST\example\Wmain.c(190,60): warning C4133: “函数”: 从“wchar_t [1024]”到“LPCSTR”的类型不兼容
+E:\work\LinkList\LINKLIST\example\Wmain.c(199,51): warning C4133: “函数”: 从“wchar_t [1024]”到“LPSTR”的类型不兼容
+E:\work\LinkList\LINKLIST\example\Wmain.c(205,59): warning C4133: “函数”: 从“wchar_t [1024]”到“const char *”的类型不兼容
+E:\work\LinkList\LINKLIST\example\Wmain.c(207,25): warning C4133: “函数”: 从“wchar_t [1024]”到“char *const ”的类型不兼容
+E:\work\LinkList\LINKLIST\example\Wmain.c(208,60): warning C4133: “函数”: 从“wchar_t [1024]”到“LPCSTR”的类型不兼容
+E:\work\LinkList\LINKLIST\example\Wmain.c(217,51): warning C4133: “函数”: 从“wchar_t [1024]”到“LPSTR”的类型不兼容
+E:\work\LinkList\LINKLIST\example\Wmain.c(222,30): warning C4133: “函数”: 从“wchar_t [1024]”到“const char *”的类型不兼容
+E:\work\LinkList\LINKLIST\example\Wmain.c(224,25): warning C4133: “函数”: 从“wchar_t [1024]”到“char *const ”的类型不兼容
+E:\work\LinkList\LINKLIST\example\Wmain.c(225,60): warning C4133: “函数”: 从“wchar_t [1024]”到“LPCSTR”的类型不兼容
+E:\work\LinkList\LINKLIST\example\Wmain.c(234,51): warning C4133: “函数”: 从“wchar_t [1024]”到“LPSTR”的类型不兼容
+E:\work\LinkList\LINKLIST\example\Wmain.c(240,59): warning C4133: “函数”: 从“wchar_t [1024]”到“const char *”的类型不兼容
+E:\work\LinkList\LINKLIST\example\Wmain.c(243,29): warning C4133: “函数”: 从“wchar_t [1024]”到“char *const ”的类型不兼容
+E:\work\LinkList\LINKLIST\example\Wmain.c(246,29): warning C4133: “函数”: 从“wchar_t [1024]”到“char *const ”的类型不兼容
+E:\work\LinkList\LINKLIST\example\Wmain.c(248,60): warning C4133: “函数”: 从“wchar_t [1024]”到“LPCSTR”的类型不兼容
+E:\work\LinkList\LINKLIST\example\Wmain.c(257,51): warning C4133: “函数”: 从“wchar_t [1024]”到“LPSTR”的类型不兼容
+E:\work\LinkList\LINKLIST\example\Wmain.c(262,30): warning C4133: “函数”: 从“wchar_t [1024]”到“const char *”的类型不兼容
+E:\work\LinkList\LINKLIST\example\Wmain.c(265,29): warning C4133: “函数”: 从“wchar_t [1024]”到“char *const ”的类型不兼容
+E:\work\LinkList\LINKLIST\example\Wmain.c(265,77): warning C4474: sprintf: 格式字符串中传递的参数太多
+E:\work\LinkList\LINKLIST\example\Wmain.c(265,77): message : 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+E:\work\LinkList\LINKLIST\example\Wmain.c(268,29): warning C4133: “函数”: 从“wchar_t [1024]”到“char *const ”的类型不兼容
+E:\work\LinkList\LINKLIST\example\Wmain.c(268,76): warning C4474: sprintf: 格式字符串中传递的参数太多
+E:\work\LinkList\LINKLIST\example\Wmain.c(268,76): message : 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+E:\work\LinkList\LINKLIST\example\Wmain.c(270,60): warning C4133: “函数”: 从“wchar_t [1024]”到“LPCSTR”的类型不兼容
+E:\work\LinkList\LINKLIST\example\Wmain.c(166,17): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\work\LinkList\LINKLIST\example\Wmain.c(184,21): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\work\LinkList\LINKLIST\example\Wmain.c(185,21): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\work\LinkList\LINKLIST\example\Wmain.c(189,17): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\work\LinkList\LINKLIST\example\Wmain.c(207,17): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\work\LinkList\LINKLIST\example\Wmain.c(224,17): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\work\LinkList\LINKLIST\example\Wmain.c(243,21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\work\LinkList\LINKLIST\example\Wmain.c(246,21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\work\LinkList\LINKLIST\example\Wmain.c(265,21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\work\LinkList\LINKLIST\example\Wmain.c(268,21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\work\LinkList\LINKLIST\example\Wmain.c(281,21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\work\LinkList\LINKLIST\example\Wmain.c(282,21): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  LINK : 没有找到 E:\work\LinkList\LINKLIST\bin\Debug\Wmain.exe 或上一个增量链接没有生成它；正在执行完全链接
+F_LINK.lib(LinkList.obj) : warning LNK4099: 未找到 PDB“”(使用“F_LINK.lib(LinkList.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+F_LINK.lib(Length.obj) : warning LNK4099: 未找到 PDB“”(使用“F_LINK.lib(Length.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+F_LINK.lib(Insert.obj) : warning LNK4099: 未找到 PDB“”(使用“F_LINK.lib(Insert.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+F_LINK.lib(Remove.obj) : warning LNK4099: 未找到 PDB“”(使用“F_LINK.lib(Remove.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+F_LINK.lib(Delete.obj) : warning LNK4099: 未找到 PDB“”(使用“F_LINK.lib(Delete.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+F_LINK.lib(Find.obj) : warning LNK4099: 未找到 PDB“”(使用“F_LINK.lib(Find.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+F_LINK.lib(Sort.obj) : warning LNK4099: 未找到 PDB“”(使用“F_LINK.lib(Sort.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+  Wmain.vcxproj -> E:\work\LinkList\LINKLIST\bin\Debug\Wmain.exe
